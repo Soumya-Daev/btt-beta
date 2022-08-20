@@ -97,7 +97,7 @@
 	z-index: 2;
 }
 .camera_target_content .camera_link {
-    background: url(../images/blank.gif);
+    background: url(images/blank.gif);
 	display: block;
 	height: 100%;
 	text-decoration: none;
@@ -139,7 +139,7 @@
 
 
 .slide_wrapper .camera_prev{
-	background: url(../images/prevnext_bg.png) 0 0 repeat;
+	background: url(images/prevnext_bg.png) 0 0 repeat;
 	width: 70px;	
 	top: 0 !important;
 	height: auto !important;
@@ -154,7 +154,7 @@
 }
 
 .slide_wrapper .camera_prev>span {
-	background: url(../images/prev.png) center 0 no-repeat;
+	background: url(images/prev.png) center 0 no-repeat;
 	top: 50%;
 		
 	margin-top: -10px;
@@ -166,7 +166,7 @@
 }
 
 .slide_wrapper .camera_next>span {
-	background: url(../images/next.png) center 0 no-repeat;
+	background: url(images/next.png) center 0 no-repeat;
 	top: 50%;
 	margin-top: -10px;
 	position: absolute;
@@ -179,7 +179,7 @@
 
 
 .slide_wrapper .camera_next {
-	background: url(../images/prevnext_bg.png) 0 0 repeat;
+	background: url(images/prevnext_bg.png) 0 0 repeat;
 	width: 70px;	
 	top: 0  !important;
 	bottom: 0;
@@ -209,7 +209,7 @@
 
 }
 .camera_thumbs_cont ul {
-	background: url(../images/thumb_bg.png) 0 0 repeat;
+	background: url(images/thumb_bg.png) 0 0 repeat;
 	overflow: hidden;
 	position: relative;
 	width: 100% !important;
@@ -302,7 +302,7 @@
 
 	display: inline-block;
 	/* border: 2px solid #FF4D4D; */
-	/* background: url(../images/capt_a.png) 0 0 repeat-x #c5302c; */
+	/* background: url(images/capt_a.png) 0 0 repeat-x #c5302c; */
 
 }
 
@@ -354,7 +354,7 @@
 }
 
 .camera_pag ul li span {
-	background: url(../images/pagination.png) right 0 no-repeat;
+	background: url(images/pagination.png) right 0 no-repeat;
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -382,7 +382,7 @@
 	cursor: pointer;
 	top: 54%;
 	z-index: 999;
-	background: url(../images/prevnext.png) 0 0 no-repeat;
+	background: url(images/prevnext.png) 0 0 no-repeat;
 	opacity: 1 !important;
 	
 }
