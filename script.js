@@ -1,8 +1,6 @@
 let loginBtn = document.querySelector('#login-btn');
 let loginForm = document.querySelector('.login-form-container');
 let logiFormClose = document.querySelector('#form-close');
-// const login_form = document.querySelector('.login-form-container');
-// let soundBtn = document.querySelector('#sound-btn');
 
 loginBtn.addEventListener('click', () => {
     loginForm.style.transition = '1s';
@@ -62,38 +60,6 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
-    // var typed = new Typed(".typing", {
-    //     strings: ["Exquisite Hotels", "Quality food and drinks", "Safety and security", "Fastest Travels", "Memorable Adventures"],
-    //     typeSpeed: 100,
-    //     backSpeed: 60,
-    //     loop: true
-    // });
-
-    // owl carousel script
-    // $('.carousel').owlCarousel({
-    //     margin: 20,
-    //     loop: true,
-    //     autoplay: true,
-    //     autoplayTimeOut: 2000,
-    //     autoplayHoverPause: true,
-    //     responsive: {
-    //         0:{
-    //             items: 1,
-    //             nav: false
-    //         },
-    //         600:{
-    //             items: 2,
-    //             nav: false
-    //         },
-    //         1000:{
-    //             items: 3,
-    //             nav: false
-    //         }
-    //     }
-    // });
-});
-
 function addImages(){
     for (var i = 1; i <= 9; i++) {
         var img = document.createElement('img');
@@ -103,28 +69,15 @@ function addImages(){
 }
 
 let audioBGM = new Audio("home_BGM.mp3");
-audioBGM.volume = 0.2;
+audioBGM.volume = 0.6;
 audioBGM.play();
 setInterval(() => {
     if(audioBGM.ended || audioBGM.currentTime === 0 || audioBGM.paused){
         audioBGM = new Audio("home_BGM.mp3");
-        audioBGM.volume = 0.2;
+        audioBGM.volume = 0.6;
         audioBGM.play();
     }
 }, 1000);
-
-// soundBtn.addEventListener('click', () => {
-//     if(audioBGM.volume === 0.5){
-//         audioBGM.volume = 0;
-//         soundBtn.classList.remove('fa-volume');
-//         soundBtn.classList.add('fa-volume-slash');
-//     }
-//     else{
-//         audioBGM.volume = 0.5;
-//         soundBtn.classList.remove('fa-volume-slash');
-//         soundBtn.classList.add('fa-volume');
-//     }
-// });
 
 function redirect_lr(place_name) 
 {
