@@ -58,7 +58,8 @@ $(document).ready(function(){
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
-    });
+    }); 
+});
 
 function addImages(){
     for (var i = 1; i <= 9; i++) {
